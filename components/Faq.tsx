@@ -34,7 +34,7 @@ export default function FAQ() {
 
         {/* Header */}
         <div className="flex flex-col items-center text-center mb-16">
-          <p className="text-[#b89053] text-[0.6rem] tracking-[0.5em] uppercase mb-4 opacity-60">
+          <p className="text-[#b89053] text-[0.6rem] tracking-[0.5em] uppercase mb-4 opacity-80">
             Frequently Asked
           </p>
           <h2 className="font-serif text-3xl md:text-4xl text-white tracking-wide mb-4">
@@ -52,7 +52,7 @@ export default function FAQ() {
                 onClick={() => setOpenIndex(openIndex === i ? null : i)}
               >
                 <span className={`text-sm font-light tracking-wide transition-colors duration-300 ${
-                  openIndex === i ? 'text-white' : 'text-gray-400 group-hover:text-white'
+                  openIndex === i ? 'text-white' : 'text-white/60 group-hover:text-white'
                 }`}>
                   {faq.q}
                 </span>
@@ -66,7 +66,7 @@ export default function FAQ() {
               <div className={`overflow-hidden transition-all duration-400 ${
                 openIndex === i ? 'max-h-48 pb-6' : 'max-h-0'
               }`}>
-                <p className="text-gray-600 text-sm leading-relaxed font-light">
+                <p className="text-white/80 text-sm leading-relaxed font-light">
                   {faq.a}
                 </p>
               </div>
@@ -76,12 +76,12 @@ export default function FAQ() {
 
         {/* Still have questions */}
         <div className="mt-16 flex flex-col items-center text-center">
-          <p className="text-gray-600 text-xs tracking-wider mb-4">Masih ada pertanyaan?</p>
+          <p className="text-white/40 text-xs tracking-wider mb-4">Masih ada pertanyaan?</p>
           <a
             href="https://wa.me/6281931656410?text=Halo%20Ourdays%2C%20gue%20punya%20pertanyaan."
             target="_blank"
             rel="noopener noreferrer"
-            className="text-[0.65rem] tracking-[0.3em] uppercase px-6 py-3 border border-[#1a1a1a] text-gray-500 hover:border-[#b89053]/30 hover:text-[#b89053] transition-all duration-300"
+            className="text-[0.65rem] tracking-[0.3em] uppercase px-6 py-3 border border-white/10 text-white/60 hover:border-[#b89053]/30 hover:text-[#b89053] transition-all duration-300"
           >
             Chat via WhatsApp
           </a>

@@ -32,8 +32,7 @@ export default function Hero() {
           MOBILE — image as background
           ============================== */}
       <div className="md:hidden">
-
-        {/* Candle image — absolute background, bottom center, slightly lower */}
+        {/* Candle image */}
         <div
           className="absolute pointer-events-none"
           style={{
@@ -60,7 +59,7 @@ export default function Hero() {
           />
         </div>
 
-        {/* Overlay gradient so text stays readable */}
+        {/* Overlay gradient */}
         <div
           className="absolute inset-0 pointer-events-none"
           style={{
@@ -80,7 +79,7 @@ export default function Hero() {
         >
           <p
             className="text-[#b89053] uppercase"
-            style={{ fontSize: '0.58rem', letterSpacing: '0.55em', marginBottom: '16px', opacity: 0.65 }}
+            style={{ fontSize: '0.58rem', letterSpacing: '0.55em', marginBottom: '16px', opacity: 0.8 }}
           >
             By Ourdays · Est. 2025
           </p>
@@ -102,18 +101,18 @@ export default function Hero() {
             YOUR TIME.
           </h1>
 
-          <div style={{ width: '28px', height: '0.5px', background: 'rgba(184,144,83,0.4)', marginBottom: '18px' }} />
+          <div style={{ width: '28px', height: '0.5px', background: 'rgba(184,144,83,0.6)', marginBottom: '18px' }} />
 
           <p
-            className="text-gray-500 uppercase"
-            style={{ fontSize: '0.58rem', letterSpacing: '0.28em', marginBottom: '10px' }}
+            className="text-white uppercase"
+            style={{ fontSize: '0.58rem', letterSpacing: '0.28em', marginBottom: '10px', opacity: 0.9 }}
           >
             Own your hours. Set the boundaries.
           </p>
 
           <p
-            className="font-serif text-gray-500 italic"
-            style={{ fontSize: '0.88rem', fontWeight: 300, lineHeight: 1.75, maxWidth: '300px', marginBottom: '36px' }}
+            className="font-serif text-white italic"
+            style={{ fontSize: '0.88rem', fontWeight: 300, lineHeight: 1.75, maxWidth: '300px', marginBottom: '36px', opacity: 0.85 }}
           >
             Ambil kembali kendali atas waktumu. Nyalakan untuk memicu fokus saat harus bekerja, atau jadikan penanda batas bahwa hari ini sudah selesai. Cara paling sederhana mengatur ulang pikiran.
           </p>
@@ -128,8 +127,8 @@ export default function Hero() {
             </a>
             <a
               href="#philosophy"
-              className="text-gray-500 uppercase hover:text-[#b89053] transition-all duration-300"
-              style={{ padding: '10px 22px', fontSize: '0.58rem', letterSpacing: '0.28em', border: '1px solid #2a2a2a' }}
+              className="text-white uppercase hover:text-[#b89053] transition-all duration-300"
+              style={{ padding: '10px 22px', fontSize: '0.58rem', letterSpacing: '0.28em', border: '1px solid rgba(255,255,255,0.2)' }}
             >
               The Story
             </a>
@@ -151,7 +150,7 @@ export default function Hero() {
           gap: 'clamp(24px, 4vw, 60px)'
         }}
       >
-        {/* Candle image */}
+        {/* Candle image container */}
         <div
           className="relative flex-shrink-0 flex items-end justify-center"
           style={{ width: 'clamp(200px, 36vw, 400px)', height: 'clamp(260px, 48vw, 480px)' }}
@@ -186,12 +185,12 @@ export default function Hero() {
           </div>
         </div>
 
-        {/* Divider */}
-        <div style={{ width: '0.5px', height: '35%', background: 'linear-gradient(to bottom, transparent, rgba(184,144,83,0.2), transparent)', flexShrink: 0 }} />
+        {/* Vertical Divider */}
+        <div style={{ width: '0.5px', height: '35%', background: 'linear-gradient(to bottom, transparent, rgba(184,144,83,0.3), transparent)', flexShrink: 0 }} />
 
-        {/* Text */}
+        {/* Desktop text content */}
         <div className="flex flex-col items-start text-left flex-1" style={{ maxWidth: '520px' }}>
-          <p className="text-[#b89053] uppercase" style={{ fontSize: '0.58rem', letterSpacing: '0.55em', marginBottom: '16px', opacity: 0.65 }}>
+          <p className="text-[#b89053] uppercase" style={{ fontSize: '0.58rem', letterSpacing: '0.55em', marginBottom: '16px', opacity: 0.8 }}>
             By Ourdays · Est. 2025
           </p>
           <h1 className="font-serif text-white" style={{ fontSize: 'clamp(2.4rem, 5vw, 5rem)', lineHeight: 1.0, letterSpacing: '0.04em', marginBottom: '6px' }}>
@@ -200,18 +199,18 @@ export default function Hero() {
           <h1 className="font-serif" style={{ fontSize: 'clamp(2.4rem, 5vw, 5rem)', lineHeight: 1.0, letterSpacing: '0.04em', marginBottom: '22px', color: '#b89053', fontStyle: 'italic', fontWeight: 300 }}>
             YOUR TIME.
           </h1>
-          <div style={{ width: '28px', height: '0.5px', background: 'rgba(184,144,83,0.4)', marginBottom: '18px' }} />
-          <p className="text-gray-500 uppercase" style={{ fontSize: '0.58rem', letterSpacing: '0.28em', marginBottom: '10px' }}>
+          <div style={{ width: '28px', height: '0.5px', background: 'rgba(184,144,83,0.5)', marginBottom: '18px' }} />
+          <p className="text-white uppercase" style={{ fontSize: '0.58rem', letterSpacing: '0.28em', marginBottom: '10px', opacity: 0.9 }}>
             Own your hours. Set the boundaries.
           </p>
-          <p className="font-serif text-gray-600 italic" style={{ fontSize: 'clamp(0.78rem, 1.3vw, 0.95rem)', fontWeight: 300, lineHeight: 1.75, maxWidth: '360px', marginBottom: '32px' }}>
+          <p className="font-serif text-white italic" style={{ fontSize: 'clamp(0.78rem, 1.3vw, 0.95rem)', fontWeight: 300, lineHeight: 1.75, maxWidth: '360px', marginBottom: '32px', opacity: 0.85 }}>
             Ambil kembali kendali atas waktumu. Nyalakan untuk memicu fokus saat harus bekerja, atau jadikan penanda batas bahwa hari ini sudah selesai. Cara paling sederhana mengatur ulang pikiran.
           </p>
           <div className="flex items-center" style={{ gap: '10px', flexWrap: 'wrap' }}>
             <a href="#arsenal" className="bg-white text-black font-bold uppercase hover:bg-[#b89053] hover:text-white transition-all duration-300" style={{ padding: '10px 24px', fontSize: '0.58rem', letterSpacing: '0.28em' }}>
               Explore Scent
             </a>
-            <a href="#philosophy" className="text-gray-500 uppercase hover:text-[#b89053] transition-all duration-300" style={{ padding: '10px 24px', fontSize: '0.58rem', letterSpacing: '0.28em', border: '1px solid #1a1a1a' }}>
+            <a href="#philosophy" className="text-white uppercase hover:text-[#b89053] transition-all duration-300" style={{ padding: '10px 24px', fontSize: '0.58rem', letterSpacing: '0.28em', border: '1px solid rgba(255,255,255,0.2)' }}>
               The Story
             </a>
           </div>
@@ -220,8 +219,8 @@ export default function Hero() {
 
       {/* Scroll indicator */}
       <div className="absolute z-10 flex flex-col items-center" style={{ bottom: '20px', left: '50%', transform: 'translateX(-50%)', gap: '5px' }}>
-        <span className="text-gray-700 uppercase" style={{ fontSize: '0.48rem', letterSpacing: '0.4em' }}>Scroll</span>
-        <div className="animate-pulse" style={{ width: '0.5px', height: '28px', background: 'linear-gradient(to bottom, rgba(184,144,83,0.3), transparent)' }} />
+        <span className="text-white uppercase" style={{ fontSize: '0.48rem', letterSpacing: '0.4em', opacity: 0.6 }}>Scroll</span>
+        <div className="animate-pulse" style={{ width: '0.5px', height: '28px', background: 'linear-gradient(to bottom, rgba(184,144,83,0.5), transparent)' }} />
       </div>
 
     </section>

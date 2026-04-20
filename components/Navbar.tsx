@@ -36,7 +36,7 @@ export default function Navbar() {
             <a
               key={link.label}
               href={link.href}
-              className="text-gray-500 hover:text-white text-[0.6rem] tracking-[0.3em] uppercase transition-colors duration-300"
+              className="text-white font-bold hover:text-[#b89053] text-[0.6rem] tracking-[0.3em] uppercase transition-colors duration-300 opacity-90 hover:opacity-100"
             >
               {link.label}
             </a>
@@ -48,7 +48,7 @@ export default function Navbar() {
           href="https://wa.me/6281931656410?text=Halo%20Ourdays%2C%20gue%20mau%20order."
           target="_blank"
           rel="noopener noreferrer"
-          className="hidden md:block text-[0.6rem] tracking-[0.25em] uppercase px-5 py-2 border border-[#b89053]/40 text-[#b89053] hover:bg-[#b89053] hover:text-black transition-all duration-300"
+          className="hidden md:block text-[0.6rem] font-bold tracking-[0.25em] uppercase px-5 py-2 border border-[#b89053]/40 text-[#b89053] hover:bg-[#b89053] hover:text-black transition-all duration-300"
         >
           Order Now
         </a>
@@ -73,7 +73,7 @@ export default function Navbar() {
               key={link.label}
               href={link.href}
               onClick={() => setMenuOpen(false)}
-              className="text-gray-400 hover:text-white text-[0.65rem] tracking-[0.3em] uppercase transition-colors"
+              className="text-white font-bold hover:text-[#b89053] text-[0.65rem] tracking-[0.3em] uppercase transition-colors"
             >
               {link.label}
             </a>
@@ -82,7 +82,7 @@ export default function Navbar() {
             href="https://wa.me/6281931656410?text=Halo%20Ourdays%2C%20gue%20mau%20order."
             target="_blank"
             rel="noopener noreferrer"
-            className="text-[0.65rem] tracking-[0.25em] uppercase px-5 py-3 border border-[#b89053]/40 text-[#b89053] text-center hover:bg-[#b89053] hover:text-black transition-all duration-300"
+            className="text-[0.65rem] font-bold tracking-[0.25em] uppercase px-5 py-3 border border-[#b89053]/40 text-[#b89053] text-center hover:bg-[#b89053] hover:text-black transition-all duration-300"
           >
             Order Now
           </a>

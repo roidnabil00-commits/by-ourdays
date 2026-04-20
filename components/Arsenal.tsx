@@ -1,7 +1,6 @@
 'use client'
 
 import { useState } from 'react'
-
 import OrderForm from './OrderForm'
 
 const variants = [
@@ -64,14 +63,14 @@ export default function Arsenal() {
 
         {/* Header */}
         <div className="flex flex-col items-center text-center mb-20">
-          <p className="text-[#b89053] text-[0.6rem] tracking-[0.5em] uppercase mb-4 opacity-60">
+          <p className="text-[#b89053] text-[0.6rem] tracking-[0.5em] uppercase mb-4">
             Five Signature Scents
           </p>
           <h2 className="font-serif text-3xl md:text-4xl text-white tracking-wide mb-4">
             CATALOG
           </h2>
           <div className="w-8 h-[0.5px] bg-[#b89053]/40 mb-6" />
-          <p className="font-serif text-gray-600 italic text-sm max-w-md leading-relaxed">
+          <p className="font-serif text-white italic text-base max-w-md leading-relaxed opacity-90">
             Temukan ritme kamu. Lima cara untuk hadir — sepenuhnya.
           </p>
         </div>
@@ -95,7 +94,7 @@ export default function Arsenal() {
                 <img
                   src={v.img}
                   alt={v.name}
-                  className="w-full h-full object-cover opacity-70 group-hover:opacity-95 group-hover:scale-105 transition-all duration-700"
+                  className="w-full h-full object-cover opacity-70 group-hover:opacity-100 group-hover:scale-105 transition-all duration-700"
                   onError={(e) => { e.currentTarget.style.display = 'none' }}
                 />
                 <div className="absolute inset-0 flex flex-col items-center justify-center opacity-10 group-hover:opacity-30 transition-opacity pointer-events-none">
@@ -110,16 +109,16 @@ export default function Arsenal() {
               <div className="p-5 flex flex-col flex-1">
                 <div className="flex items-baseline justify-between mb-3">
                   <h3 className="font-serif text-white text-sm tracking-[0.15em]">{v.name}</h3>
-                  <span className="text-[#b89053] text-[0.55rem] tracking-wider opacity-60">{v.origin}</span>
+                  <span className="text-[#b89053] text-[0.55rem] tracking-wider opacity-80">{v.origin}</span>
                 </div>
 
-                <p className="text-[#b89053] text-[0.6rem] tracking-[0.2em] uppercase mb-3 opacity-50">{v.scent}</p>
+                <p className="text-[#b89053] text-[0.6rem] tracking-[0.2em] uppercase mb-3 opacity-60">{v.scent}</p>
 
-                <p className="text-gray-600 text-[0.65rem] leading-relaxed flex-1 mb-4 font-light">
+                <p className="text-white text-[0.65rem] leading-relaxed flex-1 mb-4 font-light opacity-85">
                   {v.desc}
                 </p>
 
-                <div className="text-[0.55rem] tracking-wider text-gray-700 uppercase mb-4 border-t border-[#1a1a1a] pt-3">
+                <div className="text-[0.55rem] tracking-wider text-white uppercase mb-4 border-t border-[#1a1a1a] pt-3 opacity-60">
                   {v.benefit}
                 </div>
 
@@ -141,7 +140,7 @@ export default function Arsenal() {
         <div className="mt-12 flex flex-col items-center text-center">
           <div className="border border-[#1a1a1a] px-8 py-4 flex flex-col sm:flex-row items-center gap-4">
             <div className="w-1.5 h-1.5 rounded-full bg-[#b89053] animate-pulse" />
-            <p className="text-gray-600 text-[0.65rem] tracking-wider">
+            <p className="text-white text-[0.65rem] tracking-wider opacity-80">
               Produksi terbatas · <span className="text-[#b89053]">Pre-order</span> dibuka setiap minggu · Pengiriman 3–7 hari.
             </p>
           </div>
