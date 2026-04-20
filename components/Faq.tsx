@@ -21,7 +21,7 @@ const faqs = [
   },
   {
     q: 'Apakah ada gratis ongkir?',
-    a: 'Gratis ongkir untuk pembelian 2 pcs ke atas ke seluruh Indonesia via J&T atau SiCepat. Pembelian 1 pcs dikenakan ongkos kirim sesuai zona pengiriman.',
+    a: 'Gratis ongkir untuk pembelian pulau jawa via J&T atau SiCepat. Pembelian diluar pulau jawa dikenakan ongkos kirim sesuai zona pengiriman.',
   },
 ]
 
