@@ -34,7 +34,8 @@ export const metadata: Metadata = {
     type: 'website',
   },
   verification: {
-    google: 'googlef7d6c1e36c813f53',
+    // Kode verifikasi terbaru lo sudah saya masukkan di sini
+    google: 'ZpYYG_Ay0wlGMhQywOF_DEM8ZVw6P61rpKoQEh0mkzM',
   },
 }
 
