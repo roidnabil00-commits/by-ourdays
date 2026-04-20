@@ -46,7 +46,7 @@ export default function Hero() {
             WebkitMaskComposite: 'source-in',
             maskImage: 'linear-gradient(to top, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0.9) 30%, rgba(0,0,0,0.2) 70%, transparent 100%), linear-gradient(to right, transparent 0%, black 20%, black 80%, transparent 100%)',
             maskComposite: 'intersect',
-            opacity: 0.35,
+            opacity: 0.99,
           }}
         >
           <Image
