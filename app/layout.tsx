@@ -21,13 +21,20 @@ export const metadata: Metadata = {
   title: 'Ourdays — Workspace Instrument',
   description: 'Lilin aromaterapi premium dalam wadah gypsum handmade. Untuk pria yang sedang membangun sesuatu — dan tau kapan harus menepi.',
   keywords: ['ourdays', 'lilin aromaterapi', 'scented candle', 'workspace', 'premium candle indonesia'],
+  metadataBase: new URL('https://by-ourdays.vercel.app'),
+  alternates: {
+    canonical: '/',
+  },
   openGraph: {
     title: 'Ourdays — Workspace Instrument',
     description: 'Silence the noise. Own your days.',
-    url: 'https://byourdays.com',
+    url: 'https://by-ourdays.vercel.app',
     siteName: 'Ourdays',
     locale: 'id_ID',
     type: 'website',
+  },
+  verification: {
+    google: 'googlef7d6c1e36c813f53',
   },
 }
 
